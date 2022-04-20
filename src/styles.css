@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+
+    background: #fff url(assets/img/im5.jpg); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+        background-size: 100% auto;
+}
+
+.Title{
+    background-color: white;
+    color: #363636;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
