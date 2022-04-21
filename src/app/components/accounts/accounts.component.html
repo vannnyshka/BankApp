@@ -1,0 +1,16 @@
+<div class="Panel">
+    <div class="buttonHeader">
+    <button class="return" routerLink="/">←</button>
+    <h1 class="bankacc">Bank account</h1>
+    <h1 class="money">Balance</h1>
+    <h1 class="status">Status</h1>
+    <h1 class="clino">Client number</h1>
+    <h1 class="fname">First Name</h1>
+    <h1 class="lname">Last Name</h1>
+    <h1 class="passport">Passport identificator</h1>
+    <h1 class="password">Password</h1>
+</div>
+    <app-account-item *ngFor="let account of accounts" [account]="account">
+    </app-account-item>
+  </div>
+  <router-outlet></router-outlet>

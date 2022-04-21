@@ -1,0 +1,66 @@
+.information{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 1%;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 1px;
+    color:#4B4242;
+    margin-top:1%;
+    transition: 1s;
+}
+
+.id{
+    width: 10%;
+    height: 1em;
+}
+
+.money{
+    width: 7em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.status{
+    width: 5.4em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.clino{
+    width: 5.5em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.fname{
+    width: 5.5em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.lname{
+    width: 8.1em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.passport{
+    width: 10.8em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.password{
+    width: 3em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.line
+{
+    margin-left: 5px;
+    border-left: 2px solid;
+    border-color: #4B4242;
+    height: 1em;
+}

@@ -1,0 +1,26 @@
+<div class="Block">
+    <button class="return" routerLink="/">←</button>
+    <h1 class="h2">fbank</h1>
+    <h2 class="Description">By clicking on this button you confirm the addition of a new bank account</h2>
+      <button class="button2" (click)="onInsert()">Add</button>
+  </div>
+    <div class="Menu">
+      <div class="MenuButton">
+      <h1 class="h1">Add new bank account</h1>
+
+      <div class="Inputs">
+        <h2 class="numbr">Bank account number: <input type="numbr" maxlength="7" name="id" [(ngModel)]="account.id"/></h2>
+        <h2 class="status">Status of bank account (ON/OFF): <input type="status" maxlength="3" [(ngModel)]="account.status"/></h2>
+        <h2 class="fname">First Name: <input type="fname" maxlength="8" [(ngModel)]="account.fname"/></h2>
+        <h2 class="lname">Last Name: <input type="lname" maxlength="12" [(ngModel)]="account.lname"/></h2>
+        <h2 class="pnumber">Passport number: <input type="pnumber" maxlength="8" placeholder="BM______" [(ngModel)]="account.passport"/></h2>
+
+        <h2 class="pasword">Password: 
+            <input [type]="show ? 'text' : 'password'" [(ngModel)]="account.password"/>
+            <button class="button3" (click)="password()">{{show ? 'Hide' : 'Show'}}</button>
+        </h2>
+        
+      </div>
+
+    </div>
+    <router-outlet></router-outlet>

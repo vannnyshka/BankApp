@@ -1,4 +1,3 @@
-
 .Block{
     position:fixed;
     margin:0.2em;
@@ -151,5 +150,41 @@ img{
     font-style: normal;
     font-size: 1.5em;
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.Description{
+    font-style: normal;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 7em;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.button2{
+    margin-left: 10%;
+    margin-top: 3em;
+    background: none;
+    border: 2px solid #3B2824;
+    border-radius: 50px; 
+    color: #3B2824;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    cursor:pointer;
+    color:#E9E6E0;
+    border-color: #E9E6E0;
+    transition: 0.5s;
+    transform: scale(1.05);
 }
 

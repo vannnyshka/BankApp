@@ -1,0 +1,164 @@
+.Panel{
+    position:fixed;
+    right:10%;
+    left:10%;
+    top:10%;
+    bottom: auto;
+    width:80%;
+    height:auto;
+    background-color: rgba(220, 198, 159, 0.8);
+    /*background-color: antiquewhite, rba(0,0,0,0.7);*/
+    color: #4B4242;
+    overflow:auto;
+    transition: .8s;
+    padding-bottom: 2em;
+}
+
+.Panel:hover{
+    transform: scale(1.05);
+    transition: .8s;
+}
+
+.return{
+    margin-left:1.5%;
+    font-size: 3em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 1px;
+    color:#4B4242;
+    margin-top:1%;
+    width: 1.2em;
+    height: 1.2em;
+    background: none;
+    border: 2px solid #4B4242;
+    transition: 1s;
+}
+
+.return:hover{
+    cursor:pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.buttonHeader{
+    display: flex;
+    
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color:#4B4242;
+    margin-top:1%;
+    margin-bottom: 0.6em;
+    transition: 1s;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bankacc{
+    width: 6em;
+    height: 2em;
+    margin-left: 1.9em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.bankacc:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.money{
+    width: 6em;
+    height: 2em;
+    margin-left: 5px;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.money:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.status{
+    width: 5em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.status:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.clino{
+    width: 5em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.clino:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.fname{
+    width: 5em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.fname:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.lname{
+    width: 7em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.lname:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.passport{
+    width: 9em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.passport:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.password{
+    width: 7em;
+    height: 2em;
+    transition: 1s;
+}
+
+.password:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+
+
