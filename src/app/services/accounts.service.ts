@@ -42,6 +42,12 @@ export class AccountsService {
       'http://localhost:28888/endpoint2', this.toJSON(account));
   }
 
+  changeStatus(account : Account):Observable<Account>{
+    return this.http.post<any>(
+      'http://localhost:28888/status', this.toJSON(account));
+      console.log(this.toJSON(account));
+  }
+
   topBalance(account : Account):Observable<Account>{
     return this.http.post<any>(
       'http://localhost:28888/balance', this.toJSON(account));

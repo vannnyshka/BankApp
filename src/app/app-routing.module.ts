@@ -7,6 +7,7 @@ import { GeneralPageComponent } from './components/general-page/general-page.com
 import { TransactionsComponent } from './components/transactions/transactions.component';
 import { AddAccountComponent } from './components/add-account/add-account.component';
 import { CashtrancsComponent } from './components/cashtrancs/cashtrancs.component';
+import { StatusComponent } from './components/status/status.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'accounts', component:  AccountsComponent},
   { path: 'transactions', component: TransactionsComponent},
   { path: 'addaccount', component: AddAccountComponent},
-  { path: 'cashtrancs', component: CashtrancsComponent}
+  { path: 'cashtrancs', component: CashtrancsComponent},
+  { path: 'status', component: StatusComponent}
  /* { path: '**', pathMatch: 'full', 
         component: PagenotfoundComponent },*/
 ];

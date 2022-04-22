@@ -1,0 +1,28 @@
+<div class="Block">
+    <button class="return" routerLink="/">←</button>
+    <h1 class="h2">fbank</h1>
+    <h2 class="Description">Various operations with bank account status</h2>
+  </div>
+    <div class="Menu">
+      <div class="MenuButton">
+      <h1 class="h1">Status</h1>
+
+      <div class="Inputs">
+        <h2 class="numbr">Bank account number: <input type="numbr" maxlength="7" name="id" [(ngModel)]="account.id"/></h2>
+      </div>
+
+      <div class="Check">
+      ON   <input name="status" type="radio" (change)="OnStatus(account)" class="ON">
+      OFF  <input name="status" type="radio" (change)="OffStatus(account)" >
+    </div>
+
+      <div class="Buttons">
+          <button class="Top" (click)="onUpdateStatus()">Update status</button>
+          <button class="Withdraw" (click)="onCheck()">Check status</button>
+      </div>
+
+    </div>
+
+        <h3 >Status of bank account : {{accounts[0].id}} is: {{accounts[0].status}}</h3>
+
+    <router-outlet></router-outlet>

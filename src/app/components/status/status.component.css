@@ -1,0 +1,279 @@
+.Block{
+    position:fixed;
+    margin:0.2em;
+    left:0;
+    top:0;
+    width:30%;
+    height:100%;
+    background: white;
+    color:#3B2824;
+    overflow:auto;
+    background-color: #DCC69F;
+    border-right: none;
+    opacity: 1;
+    transition: .8s;
+}
+
+.Block:hover{
+    transform: scale(1.05);
+    transition: .8s;
+}
+
+.Menu{
+    position:fixed;
+    right:0;
+    top:0;
+    width:68.5%;
+    height:100%;
+    background-color: rgba(233, 230, 224, 0.8);
+    /*background-color: antiquewhite, rba(0,0,0,0.7);*/
+    color: #4B4242;
+    overflow:auto;
+    transition: .8s;
+}
+
+.Menu:hover{
+    transform: scale(1.05);
+    transition: .8s;
+}
+
+.h1{
+    margin-left:35%;
+    margin-top: 3em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 4em;
+    letter-spacing: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+.h2{
+    margin-left: 0.5em;
+    margin-top: 20%;
+    margin-right: 40%;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 8em;
+    letter-spacing: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E9E6E0;
+    border-bottom: #E9E6E0 2px solid;
+    padding-left: 0.3em;
+    transition: 1s;
+}
+
+.h2:hover{
+    color:#3B2824;
+    border-color: #3B2824;
+    transition: 1s;
+}
+
+.Description{
+    font-style: normal;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 7em;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.return{
+    margin-left:3.5%;
+    font-size: 3em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 1px;
+    color:#4B4242;
+    margin-top:4.5%;
+    width: 1.2em;
+    height: 1.2em;
+    background: none;
+    border: 2px solid #4B4242;
+    transition: 1s;
+}
+
+.return:hover{
+    cursor:pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.Inputs{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 1.2em;
+    display: grid;
+    font-style: normal;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 400; 
+    margin-bottom: 1.5em;
+    transition: 1s;
+}
+
+input{
+    margin-right: 5%;
+}
+
+.numbr:hover{
+    transform: scale(1.1);
+}
+
+input[type="numbr"]{
+    border: 2px solid;
+    border-radius: 8px;
+    width: 30%;
+    font-size: 1em;
+    border-color: #4B4242;
+    background: none;
+    color:#4B4242;
+    transition: .4s;
+    font-family: Trebuchet MS;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-left: 20%;
+
+}
+
+input[type="numbr"]:hover{
+    transition: .4s;
+    transform: scale(1.04);
+}
+
+.money:hover{
+    transform: scale(1.1);
+}
+
+input[type="money"]{
+    border: 2px solid;
+    border-radius: 8px;
+    width: 30%;
+    font-size: 1em;
+    border-color: #4B4242;
+    background: none;
+    color:#4B4242;
+    transition: .4s;
+    font-family: Trebuchet MS;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-left: 41%;
+
+}
+
+input[type="money"]:hover{
+    transition: .4s;
+    transform: scale(1.04);
+}
+
+
+.Buttons{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 3em;
+    background: none;
+    
+}
+
+
+.Top{
+    border: 2px solid #3B2824;
+    border-radius: 20px; 
+    color: #3B2824;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background: none;
+}
+
+.Withdraw{
+    margin-left: 10em;
+    border: 2px solid #3B2824;
+    border-radius: 20px; 
+    color: #3B2824;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background: none;
+}
+
+.Top:hover{
+    cursor:pointer;
+    color:#DCC69F;
+    border-color: #DCC69F;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.Withdraw:hover{
+    cursor:pointer;
+    color:#DCC69F;
+    border-color: #DCC69F;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.Check{
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    margin-left: 30%;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor:pointer;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+  color: #4B4242;
+  border: #4B4242 1px solid;
+}
+
+input[type="radio"]:checked {
+    background-color:#4B4242;
+  }
+
+  input.ON{
+      margin-right: 25em;
+  }
+
+
+  h3{
+    margin-left: 17em;
+    color: #4B4242;
+    font-size: 1.5em;
+    margin-top: 5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+}

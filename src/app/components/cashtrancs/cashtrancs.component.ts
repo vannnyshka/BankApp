@@ -23,16 +23,16 @@ export class CashtrancsComponent implements OnInit {
 
   }
 
-  massage : String = '';
-
   onTop(){
     this.accountService.topBalance(this.account).subscribe();
     //this.router.navigate([''], {relativeTo: this.route}); 
   }
 
+
   onWithdraw(){
     this.accountService.wirhdrawBalance(this.account).subscribe();
   }
+
 
   constructor(private route: ActivatedRoute, private router: Router,private accountService: AccountsService) { }
 
@@ -40,3 +40,4 @@ export class CashtrancsComponent implements OnInit {
   }
 
 }
+

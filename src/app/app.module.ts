@@ -13,6 +13,7 @@ import { CashtrancsComponent } from './components/cashtrancs/cashtrancs.componen
 import { AccountItemComponent } from './components/account-item/account-item.component';
 import { FormsModule } from '@angular/forms';
 import { TransactionItemComponent } from './components/transaction-item/transaction-item.component';
+import { StatusComponent } from './components/status/status.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TransactionItemComponent } from './components/transaction-item/transact
     AddAccountComponent,
     CashtrancsComponent,
     AccountItemComponent,
-    TransactionItemComponent
+    TransactionItemComponent,
+    StatusComponent
   ],
   imports: [
     BrowserModule,
