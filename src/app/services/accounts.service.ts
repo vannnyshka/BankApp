@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Account } from '../models/Account';
+import { Transaction } from '../models/Transaction';
 
 
 /*const ACCOUNTS = "http://localhost:28888/endpoint2";*/
@@ -41,6 +42,16 @@ export class AccountsService {
       'http://localhost:28888/endpoint2', this.toJSON(account));
   }
 
+  topBalance(account : Account):Observable<Account>{
+    return this.http.post<any>(
+      'http://localhost:28888/balance', this.toJSON(account));
+  }
+
+  wirhdrawBalance(account : Account):Observable<Account>{
+    return this.http.post<any>(
+      'http://localhost:28888/balancewirthdraw', this.toJSON(account));
+  }
+
   constructor(private http: HttpClient) { }
 
   getAccounts():Observable<Account[]>{
@@ -49,7 +60,11 @@ export class AccountsService {
     );
   }
 
- 
+  getTransactions():Observable<Transaction[]>{
+    return this.http.get<Transaction[]>(
+      'http://localhost:28888/transactions'
+    );
+  }
 
 
 }

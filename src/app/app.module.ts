@@ -12,6 +12,7 @@ import { AddAccountComponent } from './components/add-account/add-account.compon
 import { CashtrancsComponent } from './components/cashtrancs/cashtrancs.component';
 import { AccountItemComponent } from './components/account-item/account-item.component';
 import { FormsModule } from '@angular/forms';
+import { TransactionItemComponent } from './components/transaction-item/transaction-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     TransactionsComponent,
     AddAccountComponent,
     CashtrancsComponent,
-    AccountItemComponent
+    AccountItemComponent,
+    TransactionItemComponent
   ],
   imports: [
     BrowserModule,

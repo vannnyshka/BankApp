@@ -16,7 +16,8 @@ export class AccountsComponent implements OnInit {
   ngOnInit(): void {
     this.accountsService.getAccounts().subscribe( 
       massiv => {
-        massiv.forEach(element => {this.accounts.push(element)})
+        massiv.forEach(element => {this.accounts.push(element)}
+        )
       }
     );
   }

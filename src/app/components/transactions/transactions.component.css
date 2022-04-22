@@ -3,14 +3,15 @@
     right:15%;
     left:15%;
     top:10%;
-    bottom: 10%;
+    bottom: auto;
     width:70%;
-    height:80%;
+    height:auto;
     background-color: rgba(220, 198, 159, 0.8);
     /*background-color: antiquewhite, rba(0,0,0,0.7);*/
     color: #4B4242;
     overflow:auto;
     transition: .8s;
+    padding-bottom: 3em;
 }
 
 .Panel:hover{
@@ -37,3 +38,86 @@
     transition: 1s;
     transform: scale(1.1);
 }
+
+.buttonHeader{
+    display: flex;
+    
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color:#4B4242;
+    margin-top:1%;
+    margin-bottom: 0.6em;
+    transition: 1s;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.id{
+    width: 9em;
+    height: 2em;
+    margin-left: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.id:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.bankacc{
+    width: 6em;
+    height: 2em;
+    margin-left: 5px;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.bankacc:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.oper{
+    width: 15.9em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.oper:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.date{
+    width: 5.5em;
+    height: 2em;
+    border-right: 2px solid;
+    border-color: #4B4242;
+    transition: 1s;
+}
+
+.date:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+
+.time{
+    width: 5em;
+    height: 2em;
+    transition: 1s;
+}
+
+.time:hover{
+    transition: 1s;
+    color:#E9E6E0
+}
+

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Transaction } from 'src/app/models/Transaction';
+import { AccountsService } from 'src/app/services/accounts.service';
 
 @Component({
   selector: 'app-transactions',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransactionsComponent implements OnInit {
 
-  constructor() { }
+  transactions : Transaction[] = [];
+
+  constructor(private transactionsService : AccountsService) { }
 
   ngOnInit(): void {
-  }
+
+    this.transactionsService.getTransactions().subscribe( 
+      massiv => {
+        massiv.forEach(element => { this.transactions.push(element)})
+      }
+    );
+}
 
 }

@@ -1,5 +1,13 @@
 <div class="Panel">
+    <div class="buttonHeader">
     <button class="return" routerLink="/">←</button>
+    <h1 class="id">Transaction number</h1>
+    <h1 class="bankacc">Bank account</h1>
+    <h1 class="oper">Operation</h1>
+    <h1 class="date">Date</h1>
+    <h1 class="time">Time</h1>
+</div>
+    <app-transaction-item *ngFor="let transaction of transactions" [transaction]="transaction">
+    </app-transaction-item>
   </div>
-
   <router-outlet></router-outlet>

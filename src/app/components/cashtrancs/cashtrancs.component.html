@@ -1,1 +1,21 @@
-<p>cashtrancs works!</p>
+<div class="Block">
+    <button class="return" routerLink="/">←</button>
+    <h1 class="h2">fbank</h1>
+    <h2 class="Description">You can deposit or withdraw money from the account</h2>
+  </div>
+    <div class="Menu">
+      <div class="MenuButton">
+      <h1 class="h1">Balance</h1>
+
+      <div class="Inputs">
+        <h2 class="numbr">Bank account number: <input type="numbr" maxlength="7" name="id" [(ngModel)]="account.id"/></h2>
+        <h2 class="money">Money: <input type="money" [(ngModel)]="account.money"/></h2>
+      </div>
+
+      <div class="Buttons">
+          <button class="Top" (click)="onTop()">Top up</button>
+          <button class="Withdraw" (click)="onWithdraw()">Withdraw</button>
+      </div>
+
+    </div>
+    <router-outlet></router-outlet>

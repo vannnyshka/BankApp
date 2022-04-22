@@ -1,0 +1,49 @@
+.information{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 1%;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 1px;
+    color:#4B4242;
+    margin-top:1%;
+    transition: 1s;
+}
+
+.id{
+    width: 11.8em;
+    height: 1em;
+    text-align: center;
+}
+
+.bankaccno{
+    width: 7.1em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.trancname{
+    width: 20em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.date{
+    width: 6.1em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.time{
+    width: 5.5em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.line
+{
+    margin-left: 5px;
+    border-left: 2px solid;
+    border-color: #4B4242;
+    height: 1em;
+}
